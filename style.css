@@ -1,0 +1,65 @@
+body {
+  margin: 0;
+}
+
+#titleContent {
+  text-align: center;
+  background-color: salmon;
+  color: white;
+  max-width: 100%;
+  box-shadow: 0 4px 15px rgb(0 0 0 / 20%);
+}
+
+#titleContent h1 {
+  margin: 0;
+  padding: 5%;
+}
+
+#teamContent {
+  margin: auto;
+  margin-top: 60px;
+  background-color: lightgray;
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 0 4px 15px rgb(0 0 0 / 20%);
+}
+
+#cardTitle {
+  background-color: blue;
+  color: white;
+  padding: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+#cardTitle h1,
+#cardTitle h2 {
+  margin-left: 15px;
+}
+
+#cardContent {
+  padding: 15px;
+}
+
+.card {
+  background-color: white;
+  padding: 15px;
+  margin: 15px 0px;
+  border-radius: 5px;
+}
+
+#content {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.grid {
+  --auto-grid-min-size: 16rem;
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(var(--auto-grid-min-size), 1fr)
+  );
+  grid-gap: 1rem;
+  margin: 0px 15px;
+}
