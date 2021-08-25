@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  font-family: "Assistant", sans-serif;
+}
+
+#titleContent {
+  text-align: center;
+  background-color: #374785;
+  color: white;
+  max-width: 100%;
+  box-shadow: 0 4px 15px rgb(0 0 0 / 20%);
+}
+
+#titleContent h1 {
+  margin: 0;
+  padding: 5%;
+}
+
+#teamContent {
+  margin: auto;
+  margin-top: 60px;
+  background-color: lightgray;
+  width: 100%;
+  border-radius: 5px;
+  box-shadow: 0 4px 15px rgb(0 0 0 / 20%);
+}
+
+#cardTitle {
+  background-color: #1e1e90;
+  color: white;
+  padding: 5px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+#cardTitle div h1,
+#cardTitle div h2 {
+  margin-left: 15px;
+  font-size: 20px;
+}
+
+#cardTitle div {
+  display: inline-block;
+}
+
+#cardTitle div img {
+  width: 70px;
+  margin-left: 15px;
+  margin-top: -45px;
+}
+#cardContent {
+  padding: 15px;
+}
+
+.card {
+  background-color: white;
+  padding: 15px;
+  margin: 15px 0px;
+  border-radius: 5px;
+}
+
+#content {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.grid {
+  --auto-grid-min-size: 16rem;
+  display: grid;
+  grid-template-columns: repeat(
+    auto-fill,
+    minmax(var(--auto-grid-min-size), 1fr)
+  );
+  grid-gap: 1rem;
+  margin: 0px 15px;
+  margin-bottom: 60px;
+}
+
+.font-25-em {
+  font-size: 2.5em;
+}
